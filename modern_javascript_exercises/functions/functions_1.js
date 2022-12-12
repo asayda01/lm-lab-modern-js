@@ -17,14 +17,26 @@ people.forEach(logPerson);
 // Store the logPerson() function in a variable called performLogPerson
 
 // Your code here
+const performLogPerson = logPerson();
+
+// const performLogPerson = people.map((item) => logPerson(item));
+
+
+// const performLogPerson = function (person) {
+//  console.log("The person is " + person);
+// };
+
+const performLogPerson = function 
 
 // Arrow Functions in a Variable
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
+const arrowVersionOfLogPerson = (logPerson) => {}; 
 
 // Your code here
 
 // Anonymous Arrow Functions
 // Replace logPerson below with an Anonymous Arrow Function that does the same thing!
+const arrowVersionOfLogPerson = ( logPerson() ) => {};
 
 people.forEach(logPerson);
 
