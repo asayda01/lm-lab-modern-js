@@ -1,7 +1,10 @@
 // Instructions can be found in rest_parameters.md
 
 export function add( ... numbers) {
-  return numbers.reduce((sum,number) => sum += number);
+  // return numbers.reduce((sum,number) => sum += number);
+  // refactored the function with the help of Michelle
+  
+  return numbers.reduce((sum,number) => sum + number, 0);
 };
 
 /*
